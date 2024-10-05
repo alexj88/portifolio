@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Portifólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <main>
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Alex Johny. Sou desenvolvedor web com experiência em HTML, CSS e JavaScript.</p>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section id="projects">
+            <h2>Meus Projetos</h2>
+            <div class="gallery">
+                <div class="project">
+                    <img src="cadilacDinossauro.png" alt="Cadilac Dinossauros">
+                    <h3>Projeto 1</h3>
+                    <p>Este projeto é um jogo de aventura e luta muito famoso nos video games de fliperama.</p>
+                </div>
+                <div class="project">
+                    <img src="superMario.png" alt="Super Mario">
+                    <h3>Projeto 2</h3>
+                    <p>Este projeto é um jogo de abentura muito famoso até os dias de hoje.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Tabela -->
+        <section id="skills">
+            <h2>Minhas Habilidades</h2>
+            <table>
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Nível</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Avançado</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Iniciante</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contact">
+            <h2>Contato</h2>
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Portifólio</p>
+    </footer>
+
+</body>
+</html>
